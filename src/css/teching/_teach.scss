@@ -1,0 +1,56 @@
+.teching-section {
+  margin-top: 50px;
+}
+
+.main_info-teach {
+  p {
+    color: #000;
+
+    /* Text */
+    font-family: Gilroy;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+    /* 22.95px */
+    margin-bottom: 20px;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  li {
+    margin-bottom: 20px;
+    list-style: disc;
+  }
+
+  .btn_tech {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.border {
+  border-radius: 10px;
+  border: 1px solid #040404;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .border {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .main_info-teach {
+    p {
+      font-size: 13px;
+    }
+  }
+
+  .btn-white {
+    width: 90%;
+    font-size: 13px;
+  }
+}

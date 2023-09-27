@@ -1,0 +1,99 @@
+@import "./../colors";
+.main_section {
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  max-height: 1080px;
+  background-image: url(../img/home/main-img-desktop.jpg);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-position: top;
+
+
+  .text_wrapper {
+    padding: 267px 0 46px 0;
+
+    h1, h2 {
+      color: $primary-color;
+    }
+
+    h1 {
+      word-wrap: break-word;
+      max-width: 624px;
+      font-size: 70px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 95%;
+    }
+
+    h2 {
+      max-width: 624px;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 135%;
+    }
+
+  }
+
+  .btn_wrapper {
+    button:first-child {
+      margin-right: 23px;
+    }
+  }
+}
+
+/* Desktop (роздільна здатність 1280px і вище) */
+@media (min-width: 1280px) {
+  /* Тут ви можете задати стилі для роздільної здатності 1280px і вище */
+}
+
+/* Large Tablets and Landscape Tablets (роздільна здатність 1024px - 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  /* Тут ви можете задати стилі для роздільної здатності від 1024px до 1279px */
+}
+
+/* Tablets (роздільна здатність 768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Тут ви можете задати стилі для роздільної здатності від 768px до 1023px */
+}
+
+/* Mobile Devices (роздільна здатність до 767px) */
+@media (max-width: 767px) {
+
+}
+
+@media (min-width: 0px) and (max-width: 425px) {
+  .main_section {
+    .text_wrapper {
+      padding: 160px 20px 45px 20px;
+
+      h1 {
+        font-size: 44px;
+      }
+
+      h2 {
+        font-size: 18px;
+        line-height: 24.3px;
+        margin-bottom: 45px;
+      }
+    }
+  }
+}
+
+@media (min-width: 0px) and (max-width: 360px) {
+  .main_section {
+    background-image: url(./img/home/main-img-mobile.jpg);
+  }
+}
+
+@media (max-width: 1024px) {
+  .main_section {
+    display: flex;
+    align-items: center;
+
+    .text_wrapper {
+      padding: 0;
+    }
+  }
+}

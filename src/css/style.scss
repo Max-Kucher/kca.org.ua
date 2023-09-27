@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+//base
+@import "./reset";
+@import "./normalize";
+@import "./fonts";
+@import "./colors";
+@import "./base";
+@import "./buttons";
+@import "./typography";
+
+// Home page
+@import "./header";
+@import "./home/home";
+@import "./footer";
+
+
+// Admissions page
+@import "./admissions/admissions";
+@import "./footer";
+
+// About page
+@import "./about/about-us";
+@import "./about/accordion";
+@import "./about/faculty";
+@import "./about/information";

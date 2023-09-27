@@ -1,0 +1,49 @@
+.article {
+  .container {
+    margin-top:100px;
+    margin-bottom: 183px;
+    h1 {
+      font-size: 70px;
+      font-weight: 700;
+      line-height: 67px;
+      letter-spacing: 0em;
+      text-align: left;
+
+    }
+
+    h2 {
+      margin-top: 50px;
+      margin-bottom: 40px;
+      font-size: 44px;
+      font-weight: 700;
+      line-height: 44px;
+      text-align: left;
+    }
+
+    b {
+      margin:20px auto;
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 30px;
+      li {
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 44px;
+        text-align: left;
+      }
+    }
+
+    p {
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 23px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    p:nth-child(0){
+      margin-top: 100px;
+    }
+  }
+}

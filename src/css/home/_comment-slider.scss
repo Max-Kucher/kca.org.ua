@@ -1,0 +1,136 @@
+.comment-section {
+  padding: 75px 0;
+  overflow-x: hidden;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.comment__info {
+  display: flex;
+  align-items: flex-start;
+}
+
+.comment__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-right: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.comment__title {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.comment__work {
+  color: #7d7d7d;
+  font-size: 14px;
+  line-height: 135%;
+}
+
+.comment__subtitle {
+  font-size: 17px;
+  line-height: 135%;
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.comment__btn {
+  color: $primary-color;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 135%;
+  display: inline-flex;
+  justify-content: flex-start;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  width: max-content;
+}
+
+.comments__swiper {
+  padding-bottom: 85px;
+  overflow: hidden;
+
+  .swiper-slide {
+    padding: 45px 24px;
+    border-radius: 10px;
+    background: #f5f5f5;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    bottom: 0;
+    top: auto;
+    border: 1px solid #000;
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    color: #000;
+    z-index: 20;
+    &::after {
+      font-size: 12px;
+      font-weight: 700;
+    }
+  }
+
+  .swiper-button-prev {
+    left: calc(50% - 70px);
+  }
+
+  .swiper-button-next {
+    right: calc(50% - 70px);
+  }
+
+  .swiper-pagination {
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 640px) {
+  .comment-section {
+    padding: 50px 0;
+  }
+
+  .comments {
+    gap: 20px;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .comments__swiper {
+    padding-bottom: 65px;
+
+    .swiper-slide {
+      padding-top: 16px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 27px;
+    }
+  }
+}

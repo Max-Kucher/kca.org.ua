@@ -1,0 +1,10 @@
+node_modules
+dist
+# build
+src/css/*.css
+*.lock
+*.DS_Store
+config.js
+kca.org.ua.zip
+.idea
+.vscode

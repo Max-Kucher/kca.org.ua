@@ -1,0 +1,39 @@
+.title-section {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 44px;
+  color: $primary-color;
+}
+
+.title-block {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 44px;
+  color: $primary-color;
+}
+
+.title-block-yellow {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 44px;
+  color: $warning-color;
+}
+
+.subtitle-section {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #000;
+}
+
+@media (max-width: 1024px) {
+  .title-section {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 640px) {
+  .title-section {
+    font-size: 30px;
+  }
+}

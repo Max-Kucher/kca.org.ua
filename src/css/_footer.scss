@@ -1,0 +1,273 @@
+.footer-section {
+  background: $primary-color;
+}
+
+.footer {
+    padding-bottom: 65px;
+    
+}
+
+.container__wrapp {
+    display: flex;
+    justify-content: space-between;
+    // flex-wrap: wrap;
+    width: 100%;
+    padding-top: 37px;
+}
+
+.logo__link {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__logo--description {
+color: #868686;
+    font-family: Gilroy;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    padding-bottom: 12px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer_contact {
+    color: #FFF;
+        font-family: Gilroy;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 135%;
+        /* 22.95px */
+}
+
+.footer__link {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+ .container_contact-menu {
+     display: flex;
+    justify-content: space-between;
+ }
+
+.wrapper__list {
+    display: flex;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 66px;
+}
+
+.footer__links-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+.links-title__name {
+color: #868686;
+    font-family: Gilroy;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    padding-bottom: 12px;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-form {
+display: flex;
+    flex-direction: column;
+}
+
+.form__lable {
+    cursor: pointer;
+color: #FFF;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    /* 20.8px */
+}
+
+.form__lable:hover {
+    color: #f24b88;
+    transition: ease-in-out 0.2s;
+}
+
+.form__input {
+width: 282px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 0;
+   
+}
+
+.subscribe__button {
+display: inline-flex;
+    height: 55px;
+    padding: 13px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+        background: #E4A41D;
+        color: #202020;
+        
+            font-family: Gilroy;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 145%;
+            /* 29px */
+    cursor: pointer;
+    &:hover {
+            background-color: #b27b06;;
+            
+        }
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center_cont-tif {
+  display: flex;
+  flex-direction: column;
+}
+
+.center_social {
+    display: flex;
+    justify-content: end;
+}
+
+.center-typograhp {
+    color: #FFF;
+        font-family: Gilroy;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 130%;
+        /* 20.8px */
+        text-transform: uppercase;
+}
+
+
+.under__footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.copyring {
+    margin-top: 32px;
+    color: #868686;
+        font-family: Gilroy;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 135%;
+}
+
+
+
+@media screen and (max-width: 850px) {
+.footer__links {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+}
+
+@media screen and (max-width: 780px) {
+    .footer__links {
+            margin-left: 18px;
+        }
+}
+
+@media screen and (max-width: 780px) {
+.links-title__name {
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width: 740px) {
+.container__wrapp {
+   
+    flex-direction: column;
+    
+
+    .footer_contact {
+        text-align: left;
+        padding-top: 20px;
+    }
+    
+        .wrapper__list {
+            display: flow-root;
+        }
+
+        .footer-form {
+            display: flow-root;
+        }
+
+        .form__input {
+            width: 100%;
+        }
+}
+
+.logo__link {
+   
+    margin-bottom: 32px;
+}
+
+.wrapper__list {
+    margin-bottom: 32px;
+  
+}
+}
+
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 360px) {
+    .container__wrapp { 
+        justify-content: center;
+        align-items: center;
+    } 
+}

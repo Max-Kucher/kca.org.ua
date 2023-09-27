@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+    <title>Kyiv Christian Academy - Home</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <style>
+      #desktop-header .container nav { border: none !important; }
+    </style>
+  </head>
+  <body>
+    @@include('./components/header.html')
+    @@include('./components/admissions/mobile-header.html')
+    <div class="container" >
+      <div class="bread-crumbs" style="transform: translateY(125px)">
+        <a href="./index.html">Home</a>
+        <a href="./admissions.html">Admissions</a>
+      </div>
+    </div>
+
+    @@include('./components/admissions/jumbotron.html')
+    @@include('./components/admissions/article.html')
+    @@include('./components/footer.html')
+    <script src="./js/navigation.min.js"></script>
+  </body>
+</html>

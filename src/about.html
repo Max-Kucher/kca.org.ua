@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+    <title>Kyiv Christian Academy - About</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+    <main id="about-main-section">
+      @@include('./components/header.html')
+      @@include('./components/mobile-header.html')
+      <div class="container">
+        <div class="bread-crumbs">
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About KCA</a>
+        </div>
+        @@include('./components/about/about-us.html')
+      </div>
+    </main>
+    @@include('./components/about/accordion.html')
+    @@include('./components/footer.html')
+
+    <script src="./js/accordion.min.js"></script>
+    <script src="./js/navigation.min.js"></script>
+  </body>
+</html>
